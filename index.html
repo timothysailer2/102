@@ -3,59 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="pstyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
-
-    <header>
-        <div>
-            <h1>My Awesome Restaurant</h1>
+    <header class="site-init">
+        <div class="nav-bar">
+            <div><i class="fa-solid fa-bars"></i></div>
+            <div>
+                <h1>Tim's Place</h1>
+            </div>
+            <nav class="menu">
+                <a class="link-selected" href="/practice-layout.html">Home</a>
+                <a href="./menu.html">menu</a>
+                <a href="./go.html">To-go</a>
+            </nav>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
         </div>
     </header>
 
     <main>
         <h2>Welcome to your favorite place!</h2>
-        <p>Below are our 4 signature dishes. Each handcrafted and Delicious as they are beautiful. </p>
-        <div>
-            <table>
+        <p>Browse our menu below! Enjoy our amazing comfort food. </p>
+        <div class="dish-month">
+            <div class="dish-month-img">
+                <img src="./pix/IMG_4783.png" alt="">
+                </div>
+                <div class="dish-month-text">
+                <h2>Healthy Salad</h2>
+                <p>A delightful combination of cucumbers, roma tomatoes, edimame, parmeson flakes tossed in a light vinagrette.</p>
+                <div class="text-flex">
+                <p>$39.00</p>
+                <a class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="all-dish">
+         <table>
                  <thead class="pic">
-                    <th><img src="./pix/Homemade-Vegan-Mexican-Beef-Tacos-with-Herbs.jpg" alt=""></th>
+                    <th><img src="./pix/Homemade-Vegan-Mexican-Beef-Tacos-with-Herbs.jpg"></th>
                     <th><img src="./pix/photo-of-burger-and-fries-3219547.jpg"></th>
                     <th><img src="./pix/Spaghetti-Sauce-with-Ground-Beef-BFK-7-1-of-1.jpg"></th>
-                    <th><img src="./pix/grilled-chicken-veggies-rice-recipe-1746505487.jpg"</th>
+                    <th><img src="./pix/grilled-chicken-veggies-rice-recipe-1746505487.jpg"></th>
                 </thead>
                 <tbody>
                     <tr class="name">
                         <td>Tacos</td>
-                        <td>Hambuger</td>
+                        <td>Hambugers</td>
                         <td>Spaghetti</td>
                         <td>Chicken Breast</td>
                     </tr>
                     <tr class="desc">
-                        <td>Delicious Carne Asada Tacos!<br>Topped with onlions and cilantro,<br> served with rice and beans.</td>
-                        <td>Topped with your choice of cheese (Swiss, Cheddar, American),<br> jalepenos, grilled onions, bacon, lettuce tomato, pickle, mustard and mayo. <br>Served with Fries </td>
-                        <td>Angel Hair Pasta smothered in in rich meat sauce and ground beef,<br> with a side of garlic bread</td>
+                        <td>Delicious Carne Asada Tacos!<br>Topped with onlions and cilantro,<br>served with rice and beans.</td>
+                        <td>Topped with your choice of cheese (Swiss, Cheddar, American),<br>jalepenos, grilled onions, bacon, lettuce tomato, pickle, mustard and mayo.<br>Served with Fries</td>
+                        <td>Angel Hair Pasta smothered in in rich meat sauce<br>and ground beef, with a side of garlic bread</td>
                         <td>Grilled chicken breast with baked squash, zuchini, onions. Served with a rice pilaf</td>
                     </tr>
                     <tr class="price">
-                        <td>$10.99</td>
-                        <td>$15.99</td>
-                        <td>$18.00</td>
-                        <td>$22.50</td>
+                        <td>$10.99<a class="btn">Order Now</a></td>
+                        <td>$15.99<a class="btn">Order Now</a></td>
+                        <td>$18.00<a class="btn">Order Now</a></td>
+                        <td>$22.50<a class="btn">Order Now</a></td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-
+    </div>
     </main>
+      
 
-    <footer>
-
-    </footer>
-
+    
+     
 </body>
-
 </html>

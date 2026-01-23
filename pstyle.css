@@ -22,6 +22,11 @@ a{
     padding: 10px;
     text-decoration: none;
 }
+.container{
+    width: 80%;
+    margin: 50px auto;
+
+}
 /*header*/
 .site-init{
     height: 150px;
@@ -107,5 +112,43 @@ th,td{
     font-size: 22px;
     color: blue;
 }
+/*menu*/
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
+}
+.form-flex-img{
+    width: 450px;
+    
+}
+.cost{
+    display: flex;
+    justify-content: center;
+}
+.cost label{
+    font-size: 20px;
+}
+.form-container{
+    width: 80%;
+    padding: 20px;
+    border-radius: 1px;
+}
+.form-control{
+    margin: 5px auto;
+}
+.form-control input, .form-control textarea, .form-control select{
+    width: 100%;
+    padding: 3px;
+}
+.form-control label{
+    font-size: 20px;
+}
+.cvv-date label{
+    font-size: 20px;
+}
+.cvv-date{
+    display: flex;
+    justify-content: center;
+}

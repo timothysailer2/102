@@ -3,6 +3,10 @@
     margin: 10px;
     padding: 0px;
 }
+.intro{
+    margin: 50px;
+    padding: 10px;
+}
 body{
     font-family: Arial;
      background-color: rgb(142, 114, 44);
@@ -112,7 +116,7 @@ th,td{
     font-size: 22px;
     color: blue;
 }
-/*menu*/
+/*go*/
 .form-flex{
     display: flex;
     justify-content: space-between;
@@ -152,3 +156,27 @@ th,td{
     display: flex;
     justify-content: center;
 }
+/*media*/
+@media (max-width:600px){
+.container{
+    display: flex;
+    justify-content: center;
+        
+}
+}
+
+@media ((min-width: 601px) and (max-width: 991px)) {
+    body{
+        background-color: aqua;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+    body{
+        background-color: bisque;
+    }
+}
+

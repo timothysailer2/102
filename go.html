@@ -25,3 +25,67 @@
             </div>
         </div>
     </header>
+
+    <main class="container">
+        <div class="form-flex">
+        <section class="go-pic">
+            <img class="form-flex-img" src="./pix/IMG_4783.png" alt="">
+        </section>
+        <section class="form-container">
+            <form action="">
+                <div class="form-control">
+                    <label>Size*</label>
+                    <select name="" id="">
+                        <option value="" selected disabled>-- Select a size --</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+                <div class="cost">
+                    <label>Price:</label>
+                    <input type="text" value="$0.00" readonly>
+                
+                    <label>Quantity</label>
+                    <input type="number" value="">
+                </div>
+                <div class="form-control">
+                    <label>Entree*</label>
+                    <select name="" id="">
+                        <option value="" selected disabled>-- Entree --</option>
+                        <option value="1">Salad</option>
+                        <option value="2">Tacos</option>
+                        <option value="3">Hamburger</option>
+                          <option value="4">Spaghetti</option>
+                        <option value="5">Chicken</option>
+                    </select>
+                    </div>
+                    <button class="order">Add to cart</button>
+            </form>
+            <section>
+            <h2>Card Info</h2>
+            <form action="">
+                 <div class="form-control">
+                    <label>Cardholder Name*</label>
+                    <input type="text" >
+                    </div>
+
+                <div class="form-control">
+                    <label>Card Number*</label>
+                    <input type="number" required>
+                </div>
+
+                <div class="cvv-date">
+                    <label>Cvv*</label>
+                    <input type="number" required>
+                
+                    <label>Expiration*</label>
+                    <input type="month" id="monthYear" required min="2026">
+                </div>
+               
+                    <button class="order">Pay Now</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
